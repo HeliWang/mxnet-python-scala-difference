@@ -320,7 +320,7 @@ USE_CPP_PACKAGE = 0
 No error.
 
 ## Minimum reproducible example
-### 
+### Please clone https://github.com/HeliWang/mxnet-python-scala-difference
 
 ## Steps to reproduce
 
@@ -355,8 +355,3 @@ First three rows of data:
 -40.023407 0.13218212 -8.405195  16.911377 -23.552662 14.029578
 -39.91144  -8.177831  -6.575444  12.67445  -11.054529 15.726346
 ```
-
-## What have you tried to solve it?
-
-1.
-2.
