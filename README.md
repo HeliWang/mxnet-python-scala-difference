@@ -317,10 +317,19 @@ USE_CPP_PACKAGE = 0
 ```
 
 ## Error Message:
-(Paste the complete error message, including stack trace.)
+No error.
 
 ## Minimum reproducible example
-(If you are using your own code, please provide a short script that reproduces the error. Otherwise, please provide link to the existing example.)
+### 
+* Model Prediction by MxNet in Scala
+  
+  Run prediction.sh in scalakim folder:
+![scalamxnet](https://user-images.githubusercontent.com/12112939/38222914-d5395ca0-36b5-11e8-8bf0-fc1e3374cfbe.png)
+
+* Model Prediction by MxNet in Python
+
+  Run python prediction.py in pythonkim folder:
+![python-mxnet](https://user-images.githubusercontent.com/12112939/38222848-78b555b0-36b5-11e8-8568-67712b191a4b.png)
 
 ## Steps to reproduce
 (Paste the commands you ran that produced the error.)
