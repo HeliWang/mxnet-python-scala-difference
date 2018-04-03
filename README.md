@@ -320,7 +320,7 @@ USE_CPP_PACKAGE = 0
 No error.
 
 ## Minimum reproducible example
-### Please clone https://github.com/HeliWang/mxnet-python-scala-difference
+### Please git clone https://github.com/HeliWang/mxnet-python-scala-difference
 
 ## Steps to reproduce
 
