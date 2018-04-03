@@ -321,21 +321,40 @@ No error.
 
 ## Minimum reproducible example
 ### 
-* Model Prediction by MxNet in Scala
+
+## Steps to reproduce
+
+1. Model Prediction by MxNet in Scala
   
   Run prediction.sh in scalakim folder:
 ![scalamxnet](https://user-images.githubusercontent.com/12112939/38222914-d5395ca0-36b5-11e8-8bf0-fc1e3374cfbe.png)
 
-* Model Prediction by MxNet in Python
+2. Model Prediction by MxNet in Python
 
   Run python prediction.py in pythonkim folder:
 ![python-mxnet](https://user-images.githubusercontent.com/12112939/38222848-78b555b0-36b5-11e8-8568-67712b191a4b.png)
 
-## Steps to reproduce
-(Paste the commands you ran that produced the error.)
+3. You can see the outputs from MxNet (Python) and MxNet (Scala) are different.
 
-1.
-2.
+MxNet (Python) Output:
+```
+Shape of output:
+(1000,6)
+First three rows of data:
+-38.8981  -3.1511 -13.0952  17.5691 -20.4780  19.5707
+-38.8981  -3.1511 -13.0952  17.5691 -20.4780  19.5707
+-38.8981  -3.1511 -13.0952  17.5691 -20.4780  19.5707
+```
+
+MxNet (Scala) Output:
+```
+Shape of output:
+(1000,6)
+First three rows of data:
+-35.025154 -5.7320843 -13.143161 17.261858 -19.199905 22.68964
+-40.023407 0.13218212 -8.405195  16.911377 -23.552662 14.029578
+-39.91144  -8.177831  -6.575444  12.67445  -11.054529 15.726346
+```
 
 ## What have you tried to solve it?
 
