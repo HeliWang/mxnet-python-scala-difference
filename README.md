@@ -1,6 +1,25 @@
 ## Description
 Inconsistent output from mxnet-python and mxnet-scala when importing the same mxnet saved model (kim-0100.params, kim-symbol.json) and have the same input (np.ones((1000, 47, 300))).
 
+MxNet (Python) Output:
+```
+Shape of output:
+(1000,6)
+First three rows of data:
+-38.8981  -3.1511 -13.0952  17.5691 -20.4780  19.5707
+-38.8981  -3.1511 -13.0952  17.5691 -20.4780  19.5707
+-38.8981  -3.1511 -13.0952  17.5691 -20.4780  19.5707
+```
+
+MxNet (Scala) Output:
+```
+Shape of output:
+(1000,6)
+First three rows of data:
+-35.025154 -5.7320843 -13.143161 17.261858 -19.199905 22.68964
+-40.023407 0.13218212 -8.405195  16.911377 -23.552662 14.029578
+-39.91144  -8.177831  -6.575444  12.67445  -11.054529 15.726346
+
 ## Environment info (Required)
 
 ```
